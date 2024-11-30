@@ -1,0 +1,305 @@
+@import url(../node_modules/bootstrap/dist/css/bootstrap.rtl.min.css);
+@import url(../node_modules/@fortawesome/fontawesome-free/css/all.min.css);
+@import url(../node_modules/owl.carousel/dist/assets/owl.carousel.min.css);
+
+@font-face {
+  font-family: Vazirmatn-Medium;
+  src: url(../node_modules/vazirmatn/fonts/webfonts/Vazirmatn-Medium.woff2)
+    format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+* {
+  font-family: Vazirmatn-Medium;
+}
+
+.bg-top-nav {
+  background-color: rgb(0, 0, 59);
+}
+.border-end {
+  border-left: 1px solid rgba(255, 255, 255, 0.346) !important;
+}
+.dropdown-toggle::after {
+  display: inline-block;
+  margin-right: 0.255em;
+  /* vertical-align: .255em; */
+  content: "";
+  border-top: 0.3em solid;
+  border-left: 0.3em solid transparent;
+  border-bottom: 0;
+  border-right: 0.3em solid transparent;
+  vertical-align: 1px;
+}
+
+.ShoppingCartItem {
+  list-style: none;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.DropdownMenuImage {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}
+
+ul.TransFormClass li a {
+  font-size: 17px;
+  transition: 0.3s;
+}
+
+ul.TransFormClass li a:hover {
+  margin-right: 5px;
+  color: rgb(20, 20, 187);
+}
+
+ul.TransFormClass li a svg {
+  vertical-align: -5px;
+  font-size: 21px;
+}
+
+.img-thumbnail {
+  padding: 0.25rem;
+  background-color: var(--bs-body-bg);
+  border: none;
+  border-radius: 20px;
+  max-width: 104%;
+  height: auto;
+}
+
+.Border-r {
+  border-radius: 20px;
+}
+
+@media (min-width: 766px) {
+  .custom-col-md-3 {
+    flex: 0 0 21.2%;
+    width: 21.2%;
+  }
+
+  .custom-col-lg-3 {
+    flex: 0 0 21.2%;
+    width: 21.2%;
+  }
+
+  .custom-col-xl-3 {
+    flex: 0 0 21.2%;
+    width: 21.2%;
+  }
+
+  .custom-col-xxl-3 {
+    flex: 0 0 21.2%;
+    width: 21.2%;
+  }
+
+  .custom-col-md-6 {
+    flex: 0 0 53.5%;
+    width: 53.5%;
+  }
+  .custom-col-lg-6 {
+    flex: 0 0 53.5%;
+    width: 53.5%;
+  }
+  .custom-col-xl-6 {
+    flex: 0 0 53.5%;
+    width: 53.5%;
+  }
+  .custom-col-xxl-6 {
+    flex: 0 0 53.5%;
+    width: 53.5%;
+  }
+}
+
+.cart {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.Content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: flex-start;
+  margin-top: 12px;
+}
+.Cat-Haver {
+  transition: 1s ease-in;
+}
+.Cat-Haver:hover {
+  box-shadow: 0px 0px 5px 0px black;
+}
+
+.Stars {
+  color: gold;
+}
+
+nav .nav-tabs .nav-link {
+  color: black !important;
+}
+
+.Special-Offer-Ends {
+  margin-left: 10px;
+  font-size: 16px;
+  background-color: #50505070;
+  color: white;
+  border-radius: 100%;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.BlurText {
+  font-size: 20px;
+  background: red;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Next-Special-Offer {
+  margin-left: 10px;
+  font-size: 16px;
+  background-color: #50505070;
+  color: white;
+  border-radius: 100%;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  flex-direction: row-;
+  justify-content: space-around;
+  align-items: center;
+}
+#TimeFor-TheNext-SpecialOffer {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.Offer-Expiration-Time #day,
+#hours,
+#minutes,
+#Seconds {
+  position: relative;
+}
+
+.Offer-Expiration-Time #day:after {
+  position: absolute;
+  content: "روز";
+  top: 40px;
+  right: auto;
+  color: #5050509c;
+}
+
+.Offer-Expiration-Time #hours:after {
+  position: absolute;
+  content: "ساعت";
+  top: 40px;
+  right: auto;
+  color: #5050509c;
+}
+
+.Offer-Expiration-Time #minutes:after {
+  position: absolute;
+  content: "دقیقه";
+  top: 40px;
+  right: auto;
+  color: #5050509c;
+}
+
+.Offer-Expiration-Time #Seconds:after {
+  position: absolute;
+  content: "ثانیه";
+  top: 40px;
+  right: auto;
+  color: #5050509c;
+}
+
+#image-special-offer:hover {
+  transform: translate(-350px);
+}
+
+.Offer-Product-Image {
+  height: 360px;
+  overflow: hidden;
+}
+
+.Offer-Product-Image img {
+  width: 360px;
+}
+
+.Offer-Product-Image:hover .First-Img,
+.Offer-Product-Image:hover .Secend-Img {
+  transform: translateY(-360px);
+}
+.Offer-Product-Image .First-Img,
+.Offer-Product-Image .Secend-Img {
+  transition: 0.5s ease;
+}
+
+.SpecialsOffersTitle {
+  position: absolute;
+  left: 0px;
+  top: 8px;
+  font-size: 20px;
+  color: #ff0000a3;
+  text-shadow: 0px 0px 6px black;
+}
+@media screen and (max-width: 505px) {
+  .SpecialsOffersTitle {
+    top: 40px;
+  }
+}
+.S-O-B-S {
+  box-shadow: 5px 5px 12px 1px black;
+  z-index: 1;
+}
+.cardHover {
+  transition: 0.5s ease;
+}
+
+.cardHover:hover {
+  box-shadow: 0px 0px 4px black;
+}
+
+.owl-controls {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.owl-controls .btn {
+  margin: 0 5px;
+  padding: 5px 15px;
+  font-size: 16px;
+  border-radius: 50px;
+}
+.GoRight {
+  top: 38%;
+  z-index: 999999999999;
+  right: 0;
+}
+.AngleRight {
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  width: 50px;
+  height: 100px;
+  border-radius: 10px;
+}
+.GoLeft {
+  top: 38%;
+  z-index: 999999999999;
+  left: 0;
+}
+.AngleRight {
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  width: 50px;
+  height: 100px;
+  border-radius: 10px;
+}
