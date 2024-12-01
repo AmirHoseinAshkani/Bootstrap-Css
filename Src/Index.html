@@ -45,7 +45,7 @@
 
       <div class="container">
         <div class="row">
-          <div class="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-9 col-xxl-9">
+          <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 col-xxl-8">
             <div class="input-group mb-3">
               <button
                 class="btn btn-outline-secondary dropdown-toggle text-white"
@@ -74,85 +74,237 @@
             </div>
           </div>
 
-          <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
-            <div class="dropdown">
-              <button
-                style="vertical-align: -10px"
-                class="btn dropdown-toggle text-white"
-                type="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                سبدخرید
-                <i class="fa-solid fa-cart-shopping"></i>
-              </button>
+          <div class="col-6 col-sm-6 col-md-2 col-lg-2 col-xl-2 col-xxl-2">
+            <div>
+              <div class="dropdown">
+                <button
+                  style="vertical-align: -10px"
+                  class="btn dropdown-toggle text-white"
+                  type="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  سبدخرید
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </button>
 
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item d-flex" href="#">
-                  <figure>
-                    <img
-                      src="../Assets/Image/VT950.png"
-                      class="img-thumbnail"
-                      style="width: 90px"
-                    />
-                  </figure>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item d-flex" href="#">
+                    <figure>
+                      <img
+                        src="../Assets/Image/VT950.png"
+                        class="img-thumbnail"
+                        style="width: 90px"
+                      />
+                    </figure>
 
-                  <ul class="ShoppingCartItem">
-                    <li>لوازم کامپیوتری</li>
-                    <li>موس فلان</li>
-                    <li>100000</li>
-                  </ul>
-                  <button
-                    type="button"
-                    class="btn-close"
-                    style="margin: 5px"
-                    aria-label="Close"
-                  ></button>
-                </a>
+                    <ul class="ShoppingCartItem">
+                      <li>لوازم کامپیوتری</li>
+                      <li>موس فلان</li>
+                      <li>100000</li>
+                    </ul>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      style="margin: 5px"
+                      aria-label="Close"
+                    ></button>
+                  </a>
 
-                <a class="dropdown-item d-flex" href="#">
-                  <figure>
-                    <img
-                      src="../Assets/Image/VT950.png"
-                      class="img-thumbnail"
-                      style="width: 90px"
-                    />
-                  </figure>
+                  <a class="dropdown-item d-flex" href="#">
+                    <figure>
+                      <img
+                        src="../Assets/Image/VT950.png"
+                        class="img-thumbnail"
+                        style="width: 90px"
+                      />
+                    </figure>
 
-                  <ul class="ShoppingCartItem">
-                    <li>لوازم کامپیوتری</li>
-                    <li>موس فلان</li>
-                    <li>100000</li>
-                  </ul>
-                  <button
-                    type="button"
-                    class="btn-close"
-                    style="margin: 5px"
-                    aria-label="Close"
-                  ></button>
-                </a>
+                    <ul class="ShoppingCartItem">
+                      <li>لوازم کامپیوتری</li>
+                      <li>موس فلان</li>
+                      <li>100000</li>
+                    </ul>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      style="margin: 5px"
+                      aria-label="Close"
+                    ></button>
+                  </a>
 
-                <a class="dropdown-item d-flex" href="#">
-                  <figure>
-                    <img
-                      src="../Assets/Image/VT950.png"
-                      class="img-thumbnail"
-                      style="width: 90px"
-                    />
-                  </figure>
+                  <a class="dropdown-item d-flex" href="#">
+                    <figure>
+                      <img
+                        src="../Assets/Image/VT950.png"
+                        class="img-thumbnail"
+                        style="width: 90px"
+                      />
+                    </figure>
 
-                  <ul class="ShoppingCartItem">
-                    <li>لوازم کامپیوتری</li>
-                    <li>موس فلان</li>
-                    <li>100000</li>
-                  </ul>
-                  <button
-                    type="button"
-                    class="btn-close"
-                    style="margin: 5px"
-                    aria-label="Close"
-                  ></button>
-                </a>
+                    <ul class="ShoppingCartItem">
+                      <li>لوازم کامپیوتری</li>
+                      <li>موس فلان</li>
+                      <li>100000</li>
+                    </ul>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      style="margin: 5px"
+                      aria-label="Close"
+                    ></button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-sm-6 col-md-2 col-lg-2 col-xl-2 col-xxl-2 d-flex flex-row justify-content-end">
+            <!-- دکمه ورود -->
+            <span
+            style="color: white;padding: 8px;"
+              type="button"
+              data-bs-toggle="modal"
+              data-bs-target="#loginModal">
+              <i class="fa-solid fa-user"></i>
+              ورود
+
+            </span>
+
+            <!-- Modal ورود -->
+            <div
+              class="modal fade"
+              id="loginModal"
+              tabindex="-1"
+              aria-labelledby="loginModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="loginModalLabel">
+                      ورود به حساب کاربری
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="بستن"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                      <div class="mb-3">
+                        <label for="loginEmail" class="form-label">ایمیل</label>
+                        <input
+                          type="email"
+                          class="form-control"
+                          id="loginEmail"
+                          placeholder="ایمیل را وارد کنید"
+                        />
+                      </div>
+                      <div class="mb-3">
+                        <label for="loginPassword" class="form-label"
+                          >رمز عبور</label
+                        >
+                        <input
+                          type="password"
+                          class="form-control"
+                          id="loginPassword"
+                          placeholder="رمز عبور را وارد کنید"
+                        />
+                      </div>
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      بستن
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-link"
+                      id="showRegisterModal"
+                    >
+                      ثبت‌نام
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Modal ثبت‌نام -->
+            <div
+              class="modal fade"
+              id="registerModal"
+              tabindex="-1"
+              aria-labelledby="registerModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="registerModalLabel">ثبت‌نام</h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="بستن"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                      <div class="mb-3">
+                        <label for="registerUsername" class="form-label"
+                          >نام کاربری</label
+                        >
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="registerUsername"
+                          placeholder="نام کاربری را وارد کنید"
+                        />
+                      </div>
+                      <div class="mb-3">
+                        <label for="registerEmail" class="form-label"
+                          >ایمیل</label
+                        >
+                        <input
+                          type="email"
+                          class="form-control"
+                          id="registerEmail"
+                          placeholder="ایمیل را وارد کنید"
+                        />
+                      </div>
+                      <div class="mb-3">
+                        <label for="registerPassword" class="form-label"
+                          >رمز عبور</label
+                        >
+                        <input
+                          type="password"
+                          class="form-control"
+                          id="registerPassword"
+                          placeholder="رمز عبور را وارد کنید"
+                        />
+                      </div>
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      بستن
+                    </button>
+                    <button type="button" class="btn btn-primary">
+                      ثبت‌نام
+                    </button>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -214,7 +366,50 @@
                           >
                             <li>
                               <a class="dropdown-item" href="#">
-                                <i class="fa-solid fa-snowflake"></i> Action</a
+                                <i class="fa-solid fa-snowflake"></i>
+                                Action</a
+                              >
+                            </li>
+
+                            <li>
+                              <a class="dropdown-item" href="#">
+                                <i class="fa-solid fa-snowflake"></i> Another
+                                action
+                              </a>
+                            </li>
+
+                            <li>
+                              <a class="dropdown-item" href="#">
+                                <i class="fa-solid fa-snowflake"></i>
+                                Something else here
+                              </a>
+                            </li>
+
+                            <li>
+                              <a class="dropdown-item" href="#">
+                                <i class="fa-solid fa-snowflake"></i>
+                                Action
+                              </a>
+                            </li>
+
+                            <li>
+                              <a class="dropdown-item" href="#">
+                                <i class="fa-solid fa-snowflake"></i> Another
+                                action
+                              </a>
+                            </li>
+
+                            <li>
+                              <a class="dropdown-item" href="#">
+                                <i class="fa-solid fa-snowflake"></i>
+                                Something else here
+                              </a>
+                            </li>
+
+                            <li>
+                              <a class="dropdown-item" href="#">
+                                <i class="fa-solid fa-snowflake"></i>
+                                Action</a
                               >
                             </li>
 
@@ -224,34 +419,18 @@
                                 action</a
                               >
                             </li>
+
                             <li>
                               <a class="dropdown-item" href="#">
-                                <i class="fa-solid fa-snowflake"></i> Something
-                                else here</a
+                                <i class="fa-solid fa-snowflake"></i>
+                                Something else here</a
                               >
                             </li>
 
                             <li>
                               <a class="dropdown-item" href="#">
-                                <i class="fa-solid fa-snowflake"></i> Action</a
-                              >
-                            </li>
-
-                            <li>
-                              <a class="dropdown-item" href="#">
-                                <i class="fa-solid fa-snowflake"></i> Another
-                                action</a
-                              >
-                            </li>
-                            <li>
-                              <a class="dropdown-item" href="#">
-                                <i class="fa-solid fa-snowflake"></i> Something
-                                else here</a
-                              >
-                            </li>
-                            <li>
-                              <a class="dropdown-item" href="#">
-                                <i class="fa-solid fa-snowflake"></i> Action</a
+                                <i class="fa-solid fa-snowflake"></i>
+                                Action</a
                               >
                             </li>
 
@@ -261,28 +440,11 @@
                                 action</a
                               >
                             </li>
-                            <li>
-                              <a class="dropdown-item" href="#">
-                                <i class="fa-solid fa-snowflake"></i> Something
-                                else here</a
-                              >
-                            </li>
-                            <li>
-                              <a class="dropdown-item" href="#">
-                                <i class="fa-solid fa-snowflake"></i> Action</a
-                              >
-                            </li>
 
                             <li>
                               <a class="dropdown-item" href="#">
-                                <i class="fa-solid fa-snowflake"></i> Another
-                                action</a
-                              >
-                            </li>
-                            <li>
-                              <a class="dropdown-item" href="#">
-                                <i class="fa-solid fa-snowflake"></i> Something
-                                else here</a
+                                <i class="fa-solid fa-snowflake"></i>
+                                Something else here</a
                               >
                             </li>
                           </div>
@@ -391,7 +553,8 @@
                           >
                             <li>
                               <a class="dropdown-item" href="#">
-                                <i class="fa-solid fa-snowflake"></i> Action</a
+                                <i class="fa-solid fa-snowflake"></i>
+                                Action</a
                               >
                             </li>
 
@@ -403,32 +566,15 @@
                             </li>
                             <li>
                               <a class="dropdown-item" href="#">
-                                <i class="fa-solid fa-snowflake"></i> Something
-                                else here</a
+                                <i class="fa-solid fa-snowflake"></i>
+                                Something else here</a
                               >
                             </li>
 
                             <li>
                               <a class="dropdown-item" href="#">
-                                <i class="fa-solid fa-snowflake"></i> Action</a
-                              >
-                            </li>
-
-                            <li>
-                              <a class="dropdown-item" href="#">
-                                <i class="fa-solid fa-snowflake"></i> Another
-                                action</a
-                              >
-                            </li>
-                            <li>
-                              <a class="dropdown-item" href="#">
-                                <i class="fa-solid fa-snowflake"></i> Something
-                                else here</a
-                              >
-                            </li>
-                            <li>
-                              <a class="dropdown-item" href="#">
-                                <i class="fa-solid fa-snowflake"></i> Action</a
+                                <i class="fa-solid fa-snowflake"></i>
+                                Action</a
                               >
                             </li>
 
@@ -440,13 +586,14 @@
                             </li>
                             <li>
                               <a class="dropdown-item" href="#">
-                                <i class="fa-solid fa-snowflake"></i> Something
-                                else here</a
+                                <i class="fa-solid fa-snowflake"></i>
+                                Something else here</a
                               >
                             </li>
                             <li>
                               <a class="dropdown-item" href="#">
-                                <i class="fa-solid fa-snowflake"></i> Action</a
+                                <i class="fa-solid fa-snowflake"></i>
+                                Action</a
                               >
                             </li>
 
@@ -458,8 +605,27 @@
                             </li>
                             <li>
                               <a class="dropdown-item" href="#">
-                                <i class="fa-solid fa-snowflake"></i> Something
-                                else here</a
+                                <i class="fa-solid fa-snowflake"></i>
+                                Something else here</a
+                              >
+                            </li>
+                            <li>
+                              <a class="dropdown-item" href="#">
+                                <i class="fa-solid fa-snowflake"></i>
+                                Action</a
+                              >
+                            </li>
+
+                            <li>
+                              <a class="dropdown-item" href="#">
+                                <i class="fa-solid fa-snowflake"></i> Another
+                                action</a
+                              >
+                            </li>
+                            <li>
+                              <a class="dropdown-item" href="#">
+                                <i class="fa-solid fa-snowflake"></i>
+                                Something else here</a
                               >
                             </li>
                           </div>
@@ -603,6 +769,8 @@
               </div>
             </div>
           </nav>
+
+          <div></div>
         </div>
       </div>
     </section>
@@ -2068,7 +2236,7 @@
     <!-- products / End -->
 
     <!-- products / Start -->
-    <section class="container-fluid">
+    <section class="container-fluid" style="margin-bottom: 120px">
       <div class="container">
         <div class="row">
           <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
@@ -2093,6 +2261,227 @@
       </div>
     </section>
     <!-- products / End -->
+
+    <!-- Footer / Start -->
+    <section class="container-fluid mt-5 bg-light position-relative">
+      <div
+        class="container FooterHeader d-flex flex-row justify-content-center"
+      >
+        <div
+          class="row d-flex flex-row justify-content-center align-items-center"
+        >
+          <div
+            class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 d-flex flex-row align-items-end"
+          >
+            <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+              <h4>عضویت در خانه</h4>
+              <span
+                >با عضویت <span style="color: red"> 30%تخفیف </span>بهرمند
+                شوید</span
+              >
+            </div>
+
+            <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+              <span>
+                <span style="color: green">به +226,000 مشترک ما </span>
+                و ازتخفیف های ویژه هفتگی مخصوص مشترکین بهرمند شوید
+              </span>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+            <div class="d-flex flex-row align-items-end pb-3">
+              <input class="INP" type="text" placeholder="آدرس ایمیل..." />
+              <button class="BNP">اشتراک</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container" style="padding-top: 120px">
+        <div class="row">
+          <div
+            class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 col-xxl-3 TitleFooter FooterContent"
+          >
+            <p>اطلاعات</p>
+
+            <ul class="nav d-flex flex-column">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">درباره ما</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">تماس با ما</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">نحوه ارسال</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">محصولات جدید</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">محصولات منتخب</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">تماس با ما</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">نحوه ارسال</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">محصولات جدید</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">محصولات منتخب</a>
+              </li>
+            </ul>
+          </div>
+
+          <div
+            class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 col-xxl-3 TitleFooter FooterContent"
+          >
+            <p>خدمات مشتریان</p>
+
+            <ul class="nav d-flex flex-column">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">درباره ما</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">تماس با ما</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">نحوه ارسال</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">محصولات جدید</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">محصولات منتخب</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">تماس با ما</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">نحوه ارسال</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">محصولات جدید</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">محصولات منتخب</a>
+              </li>
+            </ul>
+          </div>
+
+          <div
+            class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 col-xxl-3 TitleFooter FooterContent"
+          >
+            <p>حساب کاربری</p>
+
+            <ul class="nav d-flex flex-column">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">درباره ما</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">تماس با ما</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">نحوه ارسال</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">محصولات جدید</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">محصولات منتخب</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">تماس با ما</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">نحوه ارسال</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">محصولات جدید</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">محصولات منتخب</a>
+              </li>
+            </ul>
+          </div>
+
+          <div
+            class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 col-xxl-3 TitleFooter"
+          >
+            <p>اطلاعات تماس</p>
+
+            <ul class="nav d-flex flex-column mt-1">
+              <li
+                class="nav-item d-flex flex-row align-items-center headset"
+                style="margin-right: 20px"
+              >
+                <i style="font-size: 35px" class="fa-solid fa-headset"></i>
+                <div class="d-flex flex-column" style="margin-right: 10px">
+                  <span>پشتیبانی 24 ساعته</span>
+                  <span>02100000</span>
+                </div>
+              </li>
+
+              <li class="nav-item mt-3">
+                <ul class="nav d-flex flex-row">
+                  <li class="nav-item instagram" style="margin-right: 10px">
+                    <i class="fa-brands fa-instagram fs-2"></i>
+                  </li>
+
+                  <li class="nav-item telegram" style="margin-right: 10px">
+                    <i class="fa-brands fa-telegram fs-2"></i>
+                  </li>
+
+                  <li class="nav-item whatsapp" style="margin-right: 10px">
+                    <i class="fa-brands fa-whatsapp fs-2"></i>
+                  </li>
+
+                  <li class="nav-item twitter" style="margin-right: 10px">
+                    <i class="fa-brands fa-twitter fs-2"></i>
+                  </li>
+
+                  <li class="nav-item facebook" style="margin-right: 10px">
+                    <i class="fa-brands fa-facebook fs-2"></i>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item" style="margin-top: 20px; margin-right: 17px">
+                <span>تهران - خیابان ولیعصر - کوچه چال - پلام12</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer / End -->
   </body>
 
   <script type="module" src="../Src/App/App.Js"></script>
@@ -2122,5 +2511,18 @@
         },
       });
     });
+  </script>
+
+  <script>
+
+      document.getElementById("showRegisterModal").addEventListener("click",function (){
+          const loginModal = bootstrap.Modal.getInstance(document.getElementById("loginModal"));
+          const registerModal = new bootstrap.Modal(document.getElementById("registerModal"));
+          loginModal.hide();
+          loginModal._element.addEventListener("hidden.bs.modal",
+          function () {
+          registerModal.show();
+          },{ once: true });
+        });
   </script>
 </html>

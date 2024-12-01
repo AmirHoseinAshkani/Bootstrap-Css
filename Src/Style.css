@@ -303,3 +303,96 @@ nav .nav-tabs .nav-link {
   height: 100px;
   border-radius: 10px;
 }
+.INP {
+  width: 2937.5%;
+  padding: 10px;
+  border: 1px solid #d9d9d9;
+  background-color: #ebebeb;
+  border-radius: 3px;
+  margin: 20px 40px 0px 0px;
+  outline: none;
+}
+
+.BNP {
+  border: 1px solid #ff000099;
+  outline: none;
+  font-size: 21px;
+  height: 46px;
+  width: 625%;
+  border-radius: 5px 0px 0px 5px;
+  background-color: #ff4848;
+  color: white;
+}
+
+.TitleFooter p {
+  border-bottom: 3px solid rgb(221 221 221 / 67%);
+    display: inline-flex;
+    margin-right: 18px;
+}
+.FooterContent ul li a{
+  color: black;
+}
+
+.SocialMedias li i{
+  font-size: 50px;
+}
+.headset .fa-headset{
+  color: rgb(87, 126, 255);
+}
+
+.instagram .fa-instagram {
+  color: rgb(166, 166, 166);
+}
+.instagram .fa-instagram :hover {
+  color: rgb(255, 55, 0);
+  cursor: pointer;
+}
+
+.telegram .fa-telegram {
+  color: rgb(166, 166, 166);
+}
+
+.telegram .fa-telegram :hover {
+  color: rgb(17, 0, 255);
+  cursor: pointer;
+}
+
+.whatsapp .fa-whatsapp {
+  color: rgb(166, 166, 166);
+}
+
+.whatsapp .fa-whatsapp :hover {
+  color: rgb(9, 255, 0);
+  cursor: pointer;
+}
+
+.twitter .fa-twitter {
+  color: rgb(166, 166, 166);
+}
+
+.twitter .fa-twitter :hover {
+  color: rgb(0, 187, 255);
+  cursor: pointer;
+}
+
+.facebook .fa-facebook {
+  color: rgb(166, 166, 166);
+}
+
+.facebook .fa-facebook :hover {
+  color: rgb(10, 0, 145);
+  cursor: pointer;
+}
+
+.FooterHeader{
+  min-height: 140px;
+  max-height: 210px;
+  box-shadow: 0px 0px 5px black;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: white;
+}
