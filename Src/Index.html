@@ -159,12 +159,11 @@
             </div>
           </div>
 
-          <div class="col-6 col-sm-6 col-md-2 col-lg-2 col-xl-2 col-xxl-2 d-flex flex-row justify-content-end">
+          <div class="col-6 col-sm-6 col-md-2 col-lg-2 col-xl-2 col-xxl-2 
+          d-flex flex-row justify-content-center align-items-center">
             <!-- دکمه ورود -->
-            <span
-            style="color: white;padding: 8px;"
-              type="button"
-              data-bs-toggle="modal"
+            <span style="color: white;padding: 8px;"
+              type="button"data-bs-toggle="modal"
               data-bs-target="#loginModal">
               <i class="fa-solid fa-user"></i>
               ورود
@@ -172,68 +171,66 @@
             </span>
 
             <!-- Modal ورود -->
-            <div
-              class="modal fade"
-              id="loginModal"
-              tabindex="-1"
-              aria-labelledby="loginModalLabel"
-              aria-hidden="true"
-            >
+            <div class="modal fade" id="loginModal"tabindex="-1"
+              aria-labelledby="loginModalLabel"aria-hidden="true">
+
               <div class="modal-dialog">
                 <div class="modal-content">
+
                   <div class="modal-header">
-                    <h5 class="modal-title" id="loginModalLabel">
+
+                    <h5 class="modal-title"id="loginModalLabel">
                       ورود به حساب کاربری
                     </h5>
-                    <button
-                      type="button"
-                      class="btn-close"
-                      data-bs-dismiss="modal"
-                      aria-label="بستن"
-                    ></button>
+
+                    <button type="button" class="btn-close"
+                      data-bs-dismiss="modal" aria-label="بستن">
+                    </button>
+
                   </div>
+
                   <div class="modal-body">
+
                     <form>
+
                       <div class="mb-3">
                         <label for="loginEmail" class="form-label">ایمیل</label>
-                        <input
-                          type="email"
-                          class="form-control"
-                          id="loginEmail"
-                          placeholder="ایمیل را وارد کنید"
-                        />
+                        <input style="direction: rtl;" type="email" class="form-control"
+                        id="loginEmail" placeholder="ایمیل را وارد کنید"/>
                       </div>
+
                       <div class="mb-3">
-                        <label for="loginPassword" class="form-label"
-                          >رمز عبور</label
-                        >
-                        <input
-                          type="password"
-                          class="form-control"
-                          id="loginPassword"
-                          placeholder="رمز عبور را وارد کنید"
-                        />
+                        <label for="loginPassword"
+                        class="form-label">رمز عبور</label>
+                        <input type="password"
+                          class="form-control" id="loginPassword"
+                          placeholder="رمز عبور را وارد کنید"/>
                       </div>
+
                     </form>
+
                   </div>
-                  <div class="modal-footer">
+
+                  <div class="modal-footer d-flex flex-row justify-content-center">
+
                     <button
-                      type="button"
-                      class="btn btn-secondary"
-                      data-bs-dismiss="modal"
-                    >
-                      بستن
-                    </button>
-                    <button
-                      type="button"
-                      class="btn btn-link"
-                      id="showRegisterModal"
-                    >
+                      type="button" class=" btn btn-warning"
+                      id="showRegisterModal">
                       ثبت‌نام
                     </button>
+
+                    <button type="button"
+                    class="btn btn-success"
+                    data-bs-dismiss="modal">
+                    ورود
+                  </button>
+
                   </div>
+
                 </div>
+
               </div>
+
             </div>
 
             <!-- Modal ثبت‌نام -->
@@ -259,20 +256,15 @@
                     <form>
                       <div class="mb-3">
                         <label for="registerUsername" class="form-label"
-                          >نام کاربری</label
-                        >
-                        <input
-                          type="text"
-                          class="form-control"
-                          id="registerUsername"
-                          placeholder="نام کاربری را وارد کنید"
-                        />
+                          >نام کاربری</label>
+
+                        <input type="text"
+                          class="form-control"id="registerUsername"
+                          placeholder="نام کاربری را وارد کنید"/>
                       </div>
                       <div class="mb-3">
-                        <label for="registerEmail" class="form-label"
-                          >ایمیل</label
-                        >
-                        <input
+                        <label for="registerEmail" class="form-label">ایمیل</label>
+                        <input style="direction: rtl;"
                           type="email"
                           class="form-control"
                           id="registerEmail"
@@ -307,6 +299,7 @@
                 </div>
               </div>
             </div>
+
           </div>
         </div>
       </div>
